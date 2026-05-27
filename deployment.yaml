@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: simple-app
-        image: YOUR_DOCKERHUB_USERNAME/simple-app:1  # Will be dynamically replaced by Jenkins
+        image: bhanutejaravutla/simple-app:14
         ports:
         - containerPort: 8080
